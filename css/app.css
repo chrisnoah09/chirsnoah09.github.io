@@ -9,6 +9,8 @@ p { color: #fefefe }
 
 .photos img { max-height: 20rem;}
 
+.icons { max-height: 4rem;}
+
 .grid-container {
   max-width: 90%;
 
@@ -209,7 +211,7 @@ p { color: #fefefe }
   }
   
   .timeline .timeline-item .timeline-content .timeline-content-month {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bold;
   }
   
