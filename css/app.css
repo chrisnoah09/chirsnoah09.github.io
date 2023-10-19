@@ -1,0 +1,246 @@
+body {
+  background-color: #000000    /*#417190 */;
+}
+
+th { font-size: 2rem; 
+     font-family: cursive; }
+
+p { color: #fefefe }
+
+.photos img { max-height: 20rem;}
+
+.grid-container {
+  max-width: 90%;
+
+}
+
+.arrow-left {
+  padding-left: 20px;
+}
+
+.arrow-right {
+  padding-right: 20px;
+}
+
+.timeline .timeline-item .timeline-icon-small {
+  background: #fefefe;
+  border-radius: 50%;
+  left: 50%;
+  margin-left: -25px;
+
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  height: 50px;
+  width: 50px;
+}
+
+.timeline .timeline-item .timeline-small img,
+.timeline .timeline-item .timeline-small svg {
+  position: relative;
+}
+
+.centered {
+   text-align: center; 
+}
+
+.caracteristica {
+  font-weight: bold;
+}
+
+.hero-full-screen {
+    height: 100vh;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background: url("/images/chris-olimpia1-bw.jpg") center center no-repeat;
+    background-size: cover;
+ 
+  }
+  
+ 
+  
+  .hero-full-screen .middle-content-section {
+    text-align: center;
+    color: #fefefe;
+  }
+  
+  .hero-full-screen .top-content-section {
+    width: 100%;
+  }
+  
+  .hero-full-screen .bottom-content-section {
+    text-align: center;
+    color: purple;
+    padding: 1rem;
+  }
+  
+  .hero-full-screen .bottom-content-section svg {
+    height: 3.75rem;
+    width: 3.75rem;
+    fill: #fefefe;
+  }
+  
+  .hero-full-screen .top-bar {
+    background: transparent;
+  }
+  
+  .hero-full-screen .top-bar .menu {
+    background: transparent;
+  }
+  
+  .hero-full-screen .top-bar .menu-text {
+    color: #fefefe;
+  }
+  
+  .hero-full-screen .top-bar .menu li {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .hero-full-screen .top-bar .menu a {
+    color: #fefefe;
+    font-weight: bold;
+  }
+  
+  
+.timeline .timeline-item::after, .timeline .timeline-item::before {
+    clear: both;
+    content: '';
+    display: block;
+    width: 100%;
+  }
+  
+  .timeline {
+    margin: 30px auto;
+    padding: 0 10px;
+    position: relative; 
+    transition: all 0.25s ease-in;
+    width: 100%;
+  }
+  
+  .timeline::before {
+    background: #fefefe;
+    content: '';
+    height: 100%;
+    left: 50%;
+    position: absolute;
+    top: 0;
+    width: 3px;
+  }
+  
+  .timeline::after {
+    clear: both;
+    content: '';
+    display: table;
+    width: 100%;
+  }
+  
+  .timeline a {
+    color: #fefefe;
+    font-weight: bold;
+    transition: all 0.25s ease-in;
+  }
+  
+  .timeline a:hover {
+    box-shadow: 0 1px 0px 0px #000000;
+    transition: all 0.25s ease-in;
+  }
+  
+  .timeline .timeline-item {
+    margin-bottom: 50px;
+    position: relative;
+  }
+  
+  .timeline .timeline-item .timeline-icon {
+    background: #fefefe;
+    border-radius: 50%;
+    left: 50%;
+    margin-left: -50px;
+
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    height: 100px;
+    width: 100px;
+  }
+  
+  .timeline .timeline-item .timeline-icon img,
+  .timeline .timeline-item .timeline-icon svg {
+    position: relative;
+  }
+  
+   
+  .timeline .timeline-item .timeline-content {
+    padding: 20px;
+    text-align: right;
+    transition: all 0.25s ease-in;
+    width: 45%;
+    background: transparent;
+  }
+  
+  .timeline .timeline-item .timeline-content p {
+    color: #fefefe;
+  }
+  
+  .timeline .timeline-item .timeline-content p {
+    font-size: 0.8rem;
+    line-height: 1.4;
+    margin-bottom: 0;
+  }
+  
+  .timeline .timeline-item .timeline-content .timeline-content-date {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 0;
+  }
+  
+  .timeline .timeline-item .timeline-content .timeline-content-month {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .timeline .timeline-item .timeline-content.right {
+    float: right;
+    text-align: left;
+  }
+  
+  @media screen and (max-width: 39.9375em) {
+    .timeline {
+      margin: 30px;
+      padding: 0;
+      width: 90%;
+    }
+    .timeline::before {
+      left: 0;
+    }
+    .timeline .timeline-item .timeline-content {
+      float: right;
+      text-align: left;
+      width: 90%;
+    }
+    .timeline .timeline-item .timeline-content::before, .timeline .timeline-item .timeline-content.right::before {
+      border-left: 0;
+      border-right: 7px solid #fefefe;
+      left: 10%;
+      margin-left: -6px;
+    }
+    .timeline .timeline-item .timeline-icon {
+      left: 0;
+    }
+  }
+  
+  
