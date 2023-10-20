@@ -19,7 +19,7 @@ var vcfg = {
     iv_load_policy: 3, // Hide the Video Annotations
     start: '',
     end: '',
-    autohide: 0, // Hide video controls when playing
+    autohide: 1, // Hide video controls when playing
   },
   events: {
   }
