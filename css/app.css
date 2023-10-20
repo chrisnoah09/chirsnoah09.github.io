@@ -1,3 +1,7 @@
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+  } 
+
 body {
   background-color: #000000    /*#417190 */;
 }
@@ -23,6 +27,28 @@ p { color: #fefefe }
 .arrow-right {
   padding-right: 20px;
 }
+
+.goog-te-gadget-icon {
+  display:none;
+}
+
+
+.goog-te-gadget-simple {
+    background-color: #ecebf0 !important;
+    border:0 !important;
+    font-size: 10pt;
+   font-weight:800;
+    display: inline-block;
+    padding:10px 10px !important;
+    cursor: pointer;
+    zoom: 1;
+}
+
+.goog-te-gadget-simple  span {
+   color:#3e3065 !important;
+
+}
+
 
 .timeline .timeline-item .timeline-icon-small {
   background: #fefefe;
