@@ -1,10 +1,17 @@
-Youtube Playlists - Chris-Noah09 Soccer
+## Chris Noah 09 Football Bio Web Pages
+
+## How to access this Website
+
+https://chrisnoah09.github.io
+
+## Youtube Channel Playlists
 
 https://www.youtube.com/@endersonferreira/playlists
 
-All Public ones starting with Chris-Noah09
+## Other Youtube Channels 
 
-PSG Pro future 2023 playlist 
+
+# PSG Pro Experience 2023 playlist 
 
 Vitoria 0 x 3 Recife
 
@@ -25,3 +32,8 @@ https://youtu.be/vshSHImI84A?feature=shared
 Pompeia 0 x 3 Recife
 
 https://youtu.be/XN5U841TN_Q?feature=shared
+
+## TBD
+
+- Add multi language support
+- Add metatags to show photo/description on whatsapp shared link
