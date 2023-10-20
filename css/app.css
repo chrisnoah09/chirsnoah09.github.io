@@ -151,12 +151,12 @@ p { color: #fefefe }
     width: 100%;
   }
   
-  .timeline a {
+  /*.timeline a {
     color: #fefefe;
     font-weight: bold;
     transition: all 0.25s ease-in;
   }
-  
+  */
   .timeline a:hover {
     box-shadow: 0 1px 0px 0px #000000;
     transition: all 0.25s ease-in;
