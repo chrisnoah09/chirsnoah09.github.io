@@ -274,10 +274,11 @@ iframe { height: 720px; }
     }
   }
 
-  @media screen and (max-width: 39.9375em) { 
-      iframe { height: 180px }
+
+  @media screen and (max-width: 1200px) { 
+    iframe { height: 480px }
   }  
   
-  @media screen and (max-width: 1200px) { 
-      iframe { height: 480px }
+  @media screen and (max-width: 800px) { 
+    iframe { height: 180px }
   }  
