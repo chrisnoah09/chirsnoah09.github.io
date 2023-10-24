@@ -5,7 +5,7 @@ var firstScriptTag = document.getElementsByTagName('script')[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
 var vcfg = {
-  height: '360',
+  height: '480',
   width: '100%',
   videoId: '',
   playerVars: {

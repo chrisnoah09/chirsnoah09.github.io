@@ -248,7 +248,7 @@ p { color: #fefefe }
     text-align: left;
   }
   
-  @media screen and (max-width: 39.9375em) {
+  @media screen and (max-width: 1980px) {      /* 39.9375em */
     .timeline {
       margin: 30px;
       padding: 0;
