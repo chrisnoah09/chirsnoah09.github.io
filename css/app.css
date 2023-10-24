@@ -33,6 +33,7 @@ p { color: #fefefe }
   display:none;
 }
 
+iframe { height: 720px; }
 
 .goog-te-gadget-simple {
     background-color: rgb(0,0,0,0) !important;
@@ -272,5 +273,11 @@ p { color: #fefefe }
       left: 0;
     }
   }
+
+  @media screen and (max-width: 39.9375em) { 
+      iframe { height: 180px }
+  }  
   
-  
+  @media screen and (max-width: 1200px) { 
+      iframe { height: 480px }
+  }  
